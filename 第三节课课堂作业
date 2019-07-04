@@ -62,9 +62,9 @@ void left()
     while(Serial.available()!=0)
   {
     digitalWrite(7,HIGH);
-    delay(500);
+    delay(1000);
     digitalWrite(7,LOW);
-    delay(500);
+    delay(1000);
   }
 }
 
@@ -77,9 +77,9 @@ void right()
    while(Serial.available()!=0)
   {
     digitalWrite(7,HIGH);
-    delay(500);
+    delay(1000);
     digitalWrite(7,LOW);
-    delay(500);
+    delay(1000);
   }
 }
 
